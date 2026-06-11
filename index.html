@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
+<title>Homestay Huy Huỳnh</title>
+<script src="script.js"></script>
+</head>
+
+<body>
+
+<header>
+<h1>HOMESTAY HUY HUỲNH</h1>
+<p>Nguyễn Huy Huỳnh</p>
+<p>MSSV: 251CTT028</p>
+<p>SĐT: 0368904336</p>
+<p>Email: huyhuynh13890@gmail.com</p>
+</header>
+
+<div class="container">
+
+<aside>
+
+<h3>Menu</h3>
+
+<ul>
+<li onclick="chonMuc('Giới thiệu')">Giới thiệu</li>
+<li onclick="chonMuc('Phòng Đơn')">Phòng Đơn</li>
+<li onclick="chonMuc('Phòng Đôi')">Phòng Đôi</li>
+<li onclick="chonMuc('Phòng Gia Đình')">Phòng Gia Đình</li>
+<li onclick="chonMuc('Liên hệ')">Liên hệ</li>
+</ul>
+
+<h3>Mục đang chọn:</h3>
+<p id="mucchon">Chưa chọn</p>
+
+</aside>
+
+<main>
+
+<h2>Danh Sách Phòng</h2>
+
+<div class="card">
+<img src="https://picsum.photos/300/200?1">
+<h3>Phòng Đơn</h3>
+<p>Phòng dành cho 1 người.</p>
+<button onclick="hienThi('Phòng Đơn','300.000 VNĐ')">Chi Tiết</button>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/300/200?2">
+<h3>Phòng Đôi</h3>
+<p>Phòng dành cho 2 người.</p>
+<button onclick="hienThi('Phòng Đôi','500.000 VNĐ')">Chi Tiết</button>
+</div>
+
+<div class="card">
+<img src="https://picsum.photos/300/200?3">
+<h3>Phòng Gia Đình</h3>
+<p>Phòng rộng cho gia đình.</p>
+<button onclick="hienThi('Phòng Gia Đình','800.000 VNĐ')">Chi Tiết</button>
+</div>
+
+<div class="info">
+<h3>Phòng đã chọn</h3>
+<p id="tenPhong">Chưa chọn phòng</p>
+
+<h3>Giá phòng</h3>
+<p id="giaPhong">0 VNĐ</p>
+</div>
+
+</main>
+
+</div>
+
+<footer>
+<p>© 2026 Homestay Huy Huỳnh</p>
+</footer>
+</body>
+
+</html>
